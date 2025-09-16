@@ -1,0 +1,271 @@
+{
+  "main": {
+    "id": "8320282ce545aec0",
+    "type": "split",
+    "children": [
+      {
+        "id": "0bb13aa2af513a4c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "69bfce1002adacf8",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c16fc12bb4effb60",
+    "type": "split",
+    "children": [
+      {
+        "id": "cc14c61f58a37db2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b063877503e3241c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "3cfdc49ace5bcd57",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "8838287fec324942",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "17ecc8bb197afb99",
+    "type": "split",
+    "children": [
+      {
+        "id": "1f4c2903d8bf8f76",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3c444c30b0e1e88f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Sources.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Sources"
+            }
+          },
+          {
+            "id": "1d9f325161504e12",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Content/1.1 & 1.2 Learning problem of machine..md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 1.1 & 1.2 Learning problem of machine."
+            }
+          },
+          {
+            "id": "5e8af744b54cb3cd",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "b5f1238169078dcf",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Content/1.1 & 1.2 Learning problem of machine..md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 1.1 & 1.2 Learning problem of machine."
+            }
+          },
+          {
+            "id": "636855f527567fc8",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
+            }
+          },
+          {
+            "id": "d79837318b6788a9",
+            "type": "leaf",
+            "state": {
+              "type": "timer-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "timer-view"
+            }
+          },
+          {
+            "id": "26ca0bbb094fbd44",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "calendar"
+            }
+          },
+          {
+            "id": "525669ea5144898e",
+            "type": "leaf",
+            "state": {
+              "type": "planner-timeline",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "planner-timeline"
+            }
+          },
+          {
+            "id": "5bad3640b8944217",
+            "type": "leaf",
+            "state": {
+              "type": "planner-timeline",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Timeline"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 369.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-day-planner:Open Timeline": false,
+      "obsidian-day-planner:Open Multi-Day View": false,
+      "pomodoro-timer:Toggle timer panel": false,
+      "copilot:Open Copilot Chat": false,
+      "digitalgarden:Digital Garden Publication Center": false
+    }
+  },
+  "active": "69bfce1002adacf8",
+  "lastOpenFiles": [
+    "Daily/2025-09-16.md",
+    "Content/3.1 Linear Regression..md",
+    "Custom/Image/Pasted image 20250916124102.png",
+    "Sources/Sources.md",
+    "Translation/Linear Regression..md",
+    "Content/1.1 & 1.2 Learning problem of machine..md",
+    "Content/2.1 & 2.2 & 2.3 - Data preprocessing..md",
+    "Custom/Image/Pasted image 20250916120801.png",
+    "Custom/Image/Pasted image 20250916115506.png",
+    "Content/1.3 Design a learning system..md",
+    "Custom/Image/Pasted image 20250914230706.png",
+    "Custom/Image/Pasted image 20250914230618.png",
+    "Daily/2025-09-13.md",
+    "Daily/2025-09-14.md",
+    "Progress/Week 1..md",
+    "Progress",
+    "Daily/2025-09-10.md",
+    "Custom/Image/Pasted image 20250914224158.png",
+    "Custom/Image/Pasted image 20250914223934.png",
+    "Sources",
+    "Sources/Untitled 2.md",
+    "Sources/Untitled 1.md",
+    "Sources/Untitled.md",
+    "Untitled 3.md",
+    "Machine Learning - Basic concepts..md",
+    "Untitled.base",
+    "Advices/Chapter 2 - Production..md",
+    "Translation/Chapter 2/Tabular Data in DL..md",
+    "Translation/Chapter 2/Sparse Matrix..md",
+    "Translation/Chapter 2/Problem of NLP..md",
+    "Translation/Chapter 2",
+    "Translation",
+    "Practice",
+    "Daily/2025-09-12.md",
+    "Daily/2025-09-11.md",
+    "Daily",
+    "Custom/Image/Pasted image 20250913165050.png",
+    "Custom/Image/Pasted image 20250912145818.png",
+    "Custom/Image/Pasted image 20250912145302.png",
+    "Custom/copilot-custom-prompts/Summarize.md",
+    "Custom/copilot-custom-prompts/Translate to English.md",
+    "Custom/copilot-custom-prompts/Translate to Chinese.md",
+    "Custom/Image",
+    "Custom/copilot-custom-prompts",
+    "Custom"
+  ]
+}
