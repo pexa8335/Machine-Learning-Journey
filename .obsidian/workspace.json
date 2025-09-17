@@ -22,13 +22,17 @@
             }
           },
           {
-            "id": "128b7e4f088a5f24",
+            "id": "1a9c882b24c1eb8c",
             "type": "leaf",
             "state": {
-              "type": "planner-release-notes",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Content/3.1 - Linear Regression..md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Day Planner Release 0.28.0"
+              "title": "3.1 - Linear Regression."
             }
           },
           {
@@ -37,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/3.2 - Ordinary Least Square (OLS)..md",
+                "file": "Sources/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3.2 - Ordinary Least Square (OLS)."
+              "title": "Untitled"
             }
           }
         ],
@@ -167,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/1.1 & 1.2 Learning problem of machine..md",
+                "file": "Sources/Untitled.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 1.1 & 1.2 Learning problem of machine."
+              "title": "Outline of Untitled"
             }
           },
           {
@@ -192,8 +196,8 @@
             "state": {
               "type": "timer-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "timer-view"
+              "icon": "timer",
+              "title": "Timer"
             }
           },
           {
@@ -202,8 +206,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "calendar"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
@@ -212,8 +216,8 @@
             "state": {
               "type": "planner-timeline",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "planner-timeline"
+              "icon": "calendar-with-checkmark",
+              "title": "Timeline"
             }
           },
           {
@@ -227,7 +231,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -251,13 +255,22 @@
   },
   "active": "5e7d593440d93a6d",
   "lastOpenFiles": [
-    "Content/3.1 Linear Regression..md",
-    "Content/3.2 - Ordinary Least Square (OLS)..md",
+    "Sources/Sources.md",
+    "Daily/2025-09-17.md",
     "Daily/2025-09-16.md",
+    "Content/3.3 - Ridge Regression..md",
+    "Machine Learning/Welcome.md",
+    "Content/3.2 - Ordinary Least Square (OLS)..md",
+    "Concept/Mathematical proof - Normal Equation..md",
+    "Custom/Image/Pasted image 20250917172354.png",
+    "Concept/Euclidean norm (L2 norm)..md",
+    "Translation/Normal Equation - convert to column vector..md",
+    "Translation/Linear Regression..md",
+    "Content/3.1 - Linear Regression..md",
+    "Concept",
+    "Custom/Image/Pasted image 20250917093442.png",
     "Custom/Image/Pasted image 20250916172401.png",
     "Custom/Image/Pasted image 20250916124102.png",
-    "Sources/Sources.md",
-    "Translation/Linear Regression..md",
     "Content/1.1 & 1.2 Learning problem of machine..md",
     "Content/2.1 & 2.2 & 2.3 - Data preprocessing..md",
     "Custom/Image/Pasted image 20250916120801.png",
@@ -282,20 +295,11 @@
     "Advices/Chapter 2 - Production..md",
     "Translation/Chapter 2/Tabular Data in DL..md",
     "Translation/Chapter 2/Sparse Matrix..md",
-    "Translation/Chapter 2/Problem of NLP..md",
     "Translation/Chapter 2",
     "Translation",
     "Practice",
-    "Daily/2025-09-12.md",
-    "Daily/2025-09-11.md",
     "Daily",
-    "Custom/Image/Pasted image 20250913165050.png",
-    "Custom/Image/Pasted image 20250912145818.png",
-    "Custom/copilot-custom-prompts/Summarize.md",
-    "Custom/copilot-custom-prompts/Translate to English.md",
-    "Custom/copilot-custom-prompts/Translate to Chinese.md",
     "Custom/Image",
-    "Custom/copilot-custom-prompts",
-    "Custom"
+    "Custom/copilot-custom-prompts"
   ]
 }

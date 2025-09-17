@@ -4,7 +4,7 @@
     "cssclasses": "multitext",
     "tags": "tags",
     "Date": "date",
-    "Relevant": "text",
+    "Relevant": "multitext",
     "From": "date",
     "To": "date"
   }

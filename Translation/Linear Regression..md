@@ -3,7 +3,7 @@ tags:
   - LinearRegression
   - ML
 Date: 2025-09-16
-Relevant: "[[3.1 Linear Regression.]]"
+Relevant: "[[3.1 - Linear Regression.]]"
 ---
 ## Explanation.
 
