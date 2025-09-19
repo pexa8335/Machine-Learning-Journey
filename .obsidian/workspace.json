@@ -41,16 +41,40 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sources/Untitled.md",
+                "file": "Daily/2025-09-17.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "2025-09-17"
+            }
+          },
+          {
+            "id": "b21db4ded556d7e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Content/3.3 - Ridge Regression..md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "3.3 - Ridge Regression."
+            }
+          },
+          {
+            "id": "fbedec9e53a13d99",
+            "type": "leaf",
+            "state": {
+              "type": "planner-release-notes",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Day Planner Release 0.28.0"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -107,7 +131,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "17ecc8bb197afb99",
@@ -166,18 +190,84 @@
             }
           },
           {
+            "id": "c3ddf384b70b6b06",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Content/3.3 - Ridge Regression..md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 3,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": true,
+                  "showTags": true,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [
+                    {
+                      "query": "ML",
+                      "color": {
+                        "a": 1,
+                        "rgb": 12852252
+                      }
+                    },
+                    {
+                      "query": "LinearRegression",
+                      "color": {
+                        "a": 1,
+                        "rgb": 1708805
+                      }
+                    },
+                    {
+                      "query": "RSS",
+                      "color": {
+                        "a": 1,
+                        "rgb": 11392604
+                      }
+                    },
+                    {
+                      "query": "Math",
+                      "color": {
+                        "a": 1,
+                        "rgb": 6184150
+                      }
+                    }
+                  ],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.7132754626224442,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph of 3.3 - Ridge Regression."
+            }
+          },
+          {
             "id": "b5f1238169078dcf",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sources/Untitled.md",
+                "file": "Content/3.1 - Linear Regression..md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled"
+              "title": "Outline of 3.1 - Linear Regression."
             }
           },
           {
@@ -231,11 +321,11 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 369.5
+    "width": 444.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -253,26 +343,34 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "5e7d593440d93a6d",
+  "active": "b21db4ded556d7e5",
   "lastOpenFiles": [
-    "Sources/Sources.md",
+    "Content/3.2 - Ordinary Least Square (OLS)..md",
+    "Content/3.1 - Linear Regression..md",
+    "Content/3.3 - Ridge Regression..md",
+    "Concept/Euclidean norm (L2 norm)..md",
+    "Concept/Mathematical proof - Normal Equation..md",
+    "Content/2.1 & 2.2 & 2.3 - Data preprocessing..md",
+    "Daily/2025-09-18.md",
+    "CoVe.md",
+    "Custom/Image/Pasted image 20250919182624.png",
+    "Custom/Image/Pasted image 20250919175705.png",
+    "Chat..md",
+    "Paper 2. Detecting hallucinations in large language models using semantic entropy.md",
     "Daily/2025-09-17.md",
     "Daily/2025-09-16.md",
-    "Content/3.3 - Ridge Regression..md",
+    "Paper..md",
+    "Sources/Untitled.md",
+    "Sources/Sources.md",
     "Machine Learning/Welcome.md",
-    "Content/3.2 - Ordinary Least Square (OLS)..md",
-    "Concept/Mathematical proof - Normal Equation..md",
     "Custom/Image/Pasted image 20250917172354.png",
-    "Concept/Euclidean norm (L2 norm)..md",
     "Translation/Normal Equation - convert to column vector..md",
     "Translation/Linear Regression..md",
-    "Content/3.1 - Linear Regression..md",
     "Concept",
     "Custom/Image/Pasted image 20250917093442.png",
     "Custom/Image/Pasted image 20250916172401.png",
     "Custom/Image/Pasted image 20250916124102.png",
     "Content/1.1 & 1.2 Learning problem of machine..md",
-    "Content/2.1 & 2.2 & 2.3 - Data preprocessing..md",
     "Custom/Image/Pasted image 20250916120801.png",
     "Custom/Image/Pasted image 20250916115506.png",
     "Content/1.3 Design a learning system..md",
@@ -283,18 +381,9 @@
     "Progress/Week 1..md",
     "Progress",
     "Daily/2025-09-10.md",
-    "Custom/Image/Pasted image 20250914224158.png",
-    "Custom/Image/Pasted image 20250914223934.png",
     "Sources",
     "Sources/Untitled 2.md",
-    "Sources/Untitled 1.md",
-    "Sources/Untitled.md",
-    "Untitled 3.md",
-    "Machine Learning - Basic concepts..md",
     "Untitled.base",
-    "Advices/Chapter 2 - Production..md",
-    "Translation/Chapter 2/Tabular Data in DL..md",
-    "Translation/Chapter 2/Sparse Matrix..md",
     "Translation/Chapter 2",
     "Translation",
     "Practice",
