@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily/2025-09-20.md",
+                "file": "Lecture content/02 - Linear Regression & Gradient Descent/Gradient Descent..md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-09-20"
+              "title": "Gradient Descent."
             }
           }
         ],
@@ -315,8 +315,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 441.5,
-    "collapsed": true
+    "width": 281.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -336,16 +335,21 @@
   },
   "active": "ba5ac5e53133d0b5",
   "lastOpenFiles": [
-    "Daily/2025-09-19.md",
+    "Custom/Image/Pasted image 20250927002303.png",
+    "Lecture content/02 - Linear Regression & Gradient Descent/Linear Regression..md",
     "Lecture content/02 - Linear Regression & Gradient Descent/Gradient Descent..md",
+    "Custom/Image/Pasted image 20250926235137.png",
+    "Custom/Image/Pasted image 20250926230502.png",
+    "Daily/2025-09-22.md",
     "Daily/2025-09-21.md",
+    "Daily/2025-09-24.md",
+    "Daily/2025-09-25.md",
     "Daily/2025-09-20.md",
+    "Daily/2025-09-19.md",
     "Daily/2025-09-18.md",
     "Untitled 1.md",
     "Lecture content/~$02-Linear Regression and Gradient Descent.pptx",
     "Untitled.md",
-    "Daily/2025-09-25.md",
-    "Lecture content/02 - Linear Regression & Gradient Descent/Linear Regression..md",
     "Daily/2025-09-16.md",
     "Content/3.1 - Linear Regression..md",
     "Lecture content/02 - Linear Regression & Gradient Descent/Gradient_Descent.ipynb",
@@ -365,11 +369,9 @@
     "Lecture content/02 - Linear Regression & Gradient Descent/[2025]_TaylorSeries.ipynb",
     "Lecture content/02 - Linear Regression & Gradient Descent/Unconfirmed 670972.crdownload",
     "Lecture content/02 - Linear Regression & Gradient Descent/[2025]_LinearRegression_GradientDescent_Demo.ipynb",
-    "Daily/2025-09-24.md",
     "Paper..md",
     "Content/3.3 - Ridge Regression..md",
     "Content/1.1 & 1.2 Learning problem of machine..md",
-    "Daily/2025-09-22.md",
     "Custom/Image/Pasted image 20250920222931.png",
     "Daily/2025-09-17.md",
     "Content/3.2 - Ordinary Least Square (OLS)..md",
@@ -378,8 +380,6 @@
     "Content/2.1 & 2.2 & 2.3 - Data preprocessing..md",
     "CoVe.md",
     "Custom/Image/Pasted image 20250919182624.png",
-    "Custom/Image/Pasted image 20250919175705.png",
-    "Chat..md",
-    "Custom/Image/Pasted image 20250917172354.png"
+    "Chat..md"
   ]
 }
