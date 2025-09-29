@@ -52,7 +52,6 @@ From each iteration $t$, calculate đạo hàm tại $f(x_{t})$ và cập nhật
 
 >[!question]
 >Tại sao phải cập nhật giá trị $x_{t+1}$ ngược chiều đạo hàm?
-Bạn đang nêu đúng ý tưởng chung, nhưng có một chút nhầm lẫn nhỏ 👇
 
 - f′(xt)>0f'(x_t) > 0: đồ thị **đang dốc lên** khi đi sang phải → muốn giảm hàm số thì phải đi **sang trái** (ngược chiều đạo hàm).
 - f′(xt)<0f'(x_t) < 0: đồ thị **đang dốc xuống** khi đi sang phải → muốn giảm hàm số thì phải đi **sang phải** (ngược chiều đạo hàm).
@@ -208,3 +207,6 @@ while [điều kiện dừng chưa thỏa] do:
 		$\mathbf{g}_t = \nabla_w L(\mathbf{w})$
 		$\mathbf{w} = \mathbf{w} - \alpha \mathbf{g}_t$
 		$t = t+1$
+----
+# Learning rate và xấp xỉ bậc hai chưa xong.
+
