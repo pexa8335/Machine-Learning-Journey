@@ -37,3 +37,26 @@ Tối ưu hàm $L(w_{0}, w_{1})$ theo 2 tham số $(w_{0}, w_{1})$ để tìm ra
 
 Để giải quyết bài toán tối ưu hóa trên, ta có thể tính đạo hàm của $L(w)$ theo 2 biến $(w_{0}, w_{1})$ và tìm nghiệm của $\frac{\partial L(w)}{\partial w_{0}} = 0$ và $\frac{\partial L(w)}{\partial w_{1}} = 0$.
 
+$$
+L(w_{0}, w_{1}) = \sum_{i=1}^N(y^{(i)} - (w_{0} + w_{1}x))^2
+$$
+Partial Derivative của $L(w_{0}, w_{1})$ theo $w_{0}$ là:
+$$
+\frac{\partial L(w)}{\partial w_{0}}= \frac{1}{N}\sum_{i=1}^N 2((w_{0} +w_{1}x^{(i)}) - t^{(i)})
+$$
+Ta có Partial Derivative của $L(w_{0}, w_{1})$ theo $w_{1}$ là:
+$$
+ \frac{\partial L(\mathbf{w})}{\partial w_{1}} = \frac{1}{N} \sum_{i=1}^N 2((w_{0} + w_{1}x^{(i)})-t^{(i)})x^{(i)}
+$$
+
+Tìm nghiệm của 2 phương trình  $\frac{\partial L(w)}{\partial w_{0}} = 0$ và $\frac{\partial L(w)}{\partial w_{1}} = 0$, ta có:
+$$
+ \frac{\partial L(\mathbf{w})}{\partial w_{0}} = 0
+$$
+$$
+\Leftrightarrow \frac{2}{N}\sum_{i=1}^N(w_{0} + w_{1}x^{(i)}-t^{(i)})
+$$
+Cần tìm $w_{0}$, cô lập $w_{0}$ sang 1 vế riêng:
+$$
+\frac{2}{N}\sum w_{0} = \sum t^{(i)} - 
+$$
