@@ -208,5 +208,39 @@ while [điều kiện dừng chưa thỏa] do:
 		$\mathbf{w} = \mathbf{w} - \alpha \mathbf{g}_t$
 		$t = t+1$
 ----
-# Learning rate và xấp xỉ bậc hai chưa xong.
+# Learning rate.
+
+Với hàm số $f(x) = 3x^2 + 4x -2$, ta có thể tính đạo hàm $f'(x) = 6x+4$.
+
+Giải phương trình $f'(x) = 0 \Leftrightarrow 6x + 4 = 0 \Leftrightarrow x = -\frac{2}{3}$
+
+**Lưu ý**: $x=-\frac{2}{3}$ ở đây là nơi hàm số đạt cực tiểu, thực tế chúng ta sẽ không biết điểm này và phải tìm thông qua thuật toán [[Gradient Descent.]] và ta cũng không biết chính xác hàm $f(x)$.
+
+Vậy, triển khai thuật toán [[Gradient Descent.]]:
+- Chọn hệ số học $\alpha > 0$.
+- Khởi tạo $x_{t}$ ngẫu nhiên tại bước t = 1.
+- Cập nhật giá trị $x_{t+1}=x_{t} - \alpha.f'(x_{t})$
+
+Giả sử đã biết hàm $f(x)$ và đạo hàm tương ứng của nó $f'(x)$, ở mỗi bước thứ t, ta cập nhật:
+$x_{t+1} = x_{t}-\alpha.f'(t_{x})$
+	$= x_{t} -\alpha.(6x_{t} + 4)$
+	$=x_{t} - \alpha.6x_{t} - 4\alpha$
+	$=x_{t}(1-6\alpha) - 4\alpha$
+
+Đặt $r=(1-6\alpha)$
+**Thử nghiệm**.
+
+_Với t = 1:_
+$x_{1}=rx_{0} - 4\alpha$
+_Với t = 2:_$x_{2} = rx_{1}-4\alpha = r.(rx_{0}-4\alpha) - 4\alpha =r^2x_{0} - r.4\alpha -4\alpha = r^2x_{0} -4\alpha(r + 1)$
+_Với t = 3:_$x_{3}=rx_{2}−4α=r(r^2x_{0}−4αr−4α)−4α=r^3x_{0}−4αr^2−4α⋅r−4α =r^3x_{0}-4\alpha(r^2+r+1)$
+Tổng quát, ta có:
+$S=r^{t-1} + r^{t-2}+\dots+1$
+$rS = r^t + r^{t-1} + \dots + r^1$
+$\implies S-rS = 1-r^t$
+
+Dễ dàng giải ra S:
+$$
+S = \frac{1-r^t}{1-r}
+$$
 
