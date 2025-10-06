@@ -162,7 +162,7 @@ $$
  \frac{\partial L(\mathbf{w})}{\partial w_{1}} = \frac{1}{N} \sum_{i=1}^N 2((w_{0} + w_{1}x^{(i)})-t^{(i)})x^{(i)}
 $$
 
-# Gradient.
+# 3. Gradient.
 
 Định nghĩa **gradient $\nabla_{w}L(w)$** của loss function MSE $L(w)$ với vector thành phần là các đạo hàm riêng của $L(w)$ theo từng tham số của bộ tham số $w = (w_{0}, w_{1})$.
 
@@ -208,7 +208,13 @@ while [điều kiện dừng chưa thỏa] do:
 		$\mathbf{w} = \mathbf{w} - \alpha \mathbf{g}_t$
 		$t = t+1$
 ----
-# Learning rate.
+# 4. Learning rate.
+
+## 4.1 Convergence (Hội tụ).
+
+Giá trị của $x_{t}$ hoặc vector tham số $w_{t}$ sẽ tiến dần tới một giá trị nhất định sau vô số lần lặp ($t \to \infty$).
+
+## 4.2 Thực nghiệm.
 
 Với hàm số $f(x) = 3x^2 + 4x -2$, ta có thể tính đạo hàm $f'(x) = 6x+4$.
 
@@ -232,9 +238,11 @@ $x_{t+1} = x_{t}-\alpha.f'(t_{x})$
 
 _Với t = 1:_
 $x_{1}=rx_{0} - 4\alpha$
-_Với t = 2:_$x_{2} = rx_{1}-4\alpha = r.(rx_{0}-4\alpha) - 4\alpha =r^2x_{0} - r.4\alpha -4\alpha = r^2x_{0} -4\alpha(r + 1)$
+_Với t = 2:_ 
+$x_{2} = rx_{1}-4\alpha = r.(rx_{0}-4\alpha) - 4\alpha =r^2x_{0} - r.4\alpha -4\alpha = r^2x_{0} -4\alpha(r + 1)$
 _Với t = 3:_$x_{3}=rx_{2}−4α=r(r^2x_{0}−4αr−4α)−4α=r^3x_{0}−4αr^2−4α⋅r−4α =r^3x_{0}-4\alpha(r^2+r+1)$
-Tổng quát, ta có:
+
+Đặt $r^2 + r +1$ là S, ta có S tổng quát hóa:
 $S=r^{t-1} + r^{t-2}+\dots+1$
 $rS = r^t + r^{t-1} + \dots + r^1$
 $\implies S-rS = 1-r^t$
@@ -243,4 +251,24 @@ Dễ dàng giải ra S:
 $$
 S = \frac{1-r^t}{1-r}
 $$
+Vậy với $x_{t+1}$ bất kỳ:
+$$
+x_{t} = r^tx_{0} - 4\alpha S
+$$
+Với $r = 1-\alpha \implies 1-r = 6\alpha$ 
+$\implies x_{t} =r^t x_{0} - \frac{4\alpha.(1-r^t)}{6\alpha}=r^t x_{0}-\frac{2}{3}+\frac{2}{3}r^t$
+$$
+\implies r^t\left( x_{0}+\frac{2}{3} \right) - \frac{2}{3}
+$$
+Để phương trình này **hội tụ** về $\frac{2}{3}$ thì $r^t = 0 \Leftrightarrow (1-6\alpha)^t=0$ vì $x_{0}$ là biến đầu vào không thể thay đổi, $\frac{2}{3}$ là hằng số, chỉ có 1 đại lượng có thể tác động đến biểu thức là $r^t$ - là $\alpha$.
 
+$\lim_{ t \to \infty }(1-6\alpha)^t=0$ khi $|(1-6\alpha)| <1$.
+
+$$
+-1 < 1-6\alpha < 1 \Leftrightarrow \frac{-2}{-6} > \alpha > 0 \Leftrightarrow \alpha < \frac{1}{3}
+$$
+Vậy với trường hợp hàm $f(x) =3x^2 + 4x - 2$ thì **hệ số học** $\alpha$ phải bé hơn $\frac{1}{3}$ thì Gradient Descent mới có thể hội tụ về một giá trị nhất định.
+
+Nhưng thực tế, ta không thể biết hàm $f(x)$ từ đầu, vậy nên việc chọn **learning rate** $\alpha$ nhỏ luôn được ưu tiên vì tính an toàn của nó.
+
+---
