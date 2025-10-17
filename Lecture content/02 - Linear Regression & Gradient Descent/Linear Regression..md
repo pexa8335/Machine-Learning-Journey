@@ -45,7 +45,7 @@ $$
 
 $t^{(i)}$ is the actual value (ground truth/true label). The model's task is to find the best function $f$ such that the predicted values approximate the actual values.
 
-In this example, all data points lie on a straight line. Therefore, we can find the best $w_{0}$ by calculating the **slope**. In reality, we use [[Gradient Descent]].
+In this example [[Linear Regression.ipynb]], all data points lie on a straight line. Therefore, we can find the best $w_{0}$ by calculating the **slope**. In reality, we use [[Gradient Descent]].
 
 $$
 w_{0} = \frac{t^{(k)} - t^{(i)}}{x^{(k)} - x^{(i)}} = 2.0
