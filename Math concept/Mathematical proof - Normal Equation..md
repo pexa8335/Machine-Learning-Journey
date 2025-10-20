@@ -20,14 +20,8 @@ y_{2} \\
 y_{M} 
 \end{bmatrix} \in \mathbb{R}^{M \times 1} \quad \text{or} \quad \in \mathbb{R}^M
 $$
-When using $y^T$, it becomes a row vector.
-$$
-y^T = \begin{bmatrix}
-y_{1}, y_{2}, \dots, y_{M}
-\end{bmatrix} \in \mathbb{R}^{1 \times M}
-$$
----
-## RSS(w) formula.
+
+## 1. RSS(w) formula.
 
 $$
 RSS(w) = \sum_{i=1}^M(y_{i} - w_{0} - w_{1}x_{i_{1}} - w_{2}x_{i_{2}} - \dots - w_{n}x_{i_{n}})^2
@@ -43,10 +37,10 @@ Note:
 - $M$ is **the number of observations/vectors** in the dataset.
 - $n$ is **the number of features** in each original observation $x_{i}$ (excluding the bias term).
 
-Define a matrix $A \in \mathbb{R}^{M \times (n+1)}$ where each **row** is an augmented observation vector $x_{i}^T$.
+Define a matrix $X \in \mathbb{R}^{M \times (n+1)}$ where each **row** is an augmented observation vector $x_{i}^T$.
 
 $$
-A = \begin{pmatrix}
+X = \begin{pmatrix}
 1 & x_{11} & x_{12} & \dots & x_{1n} \\
 1 & x_{21} & x_{22} & \dots & x_{2n} \\
 \vdots & \vdots & \vdots & \ddots & \vdots \\
@@ -63,51 +57,67 @@ y_{M}
 \end{bmatrix}
 $$
 >[!question]
->Why do we have a column of '1's in matrix A?
+>Why do we have a column of '1's in matrix X?
 >- To represent the bias term $w_{0} \times 1$.
 
-Rewrite the function:
+
+## 2. Rewrite the function.
 $$
-RSS(w) = ||y - Aw||^2
+RSS(w) = ||y - Xw||^2
 $$
 Review the [[Euclidean norm (L2 norm).]] to understand why we have this formula.
 
-From this formula, we have:
+From this formula, we have the loss function below:
 $$
-RSS(w) = (y-Aw)^T(y-Aw)
+RSS(w) = (y-Xw)^T(y-Xw)
 $$
 $$
-\Leftrightarrow y^Ty - y^TAw - (Aw)^Ty + (Aw)^T(Aw)
+\Leftrightarrow y^Ty - y^TXw - X^Tw^Ty + X^Tw^TXw
+$$
+$$
+\Leftrightarrow y^Ty - 2w^TX^Ty+ X^Tw^TXw
+$$
+Our goal is to find the **minimum point** to **minimize** the $RSS(w)$ function, so we take the gradient with respect to $w$ and set it to zero.
+
+## 3. Take the derivatives.
+
+$$
+\nabla_w RSS(w) = \frac{\partial L(w)}{\partial w}
+$$
+**Property 1**:
+$$
+\frac{\partial x^T.a}{\partial x} = a
 $$
 
-Since $y^TAw$ is a scalar, $(y^TAw)^T = w^TA^Ty$. Also, $(Aw)^Ty = w^TA^Ty$.
-Thus, $y^TAw + (Aw)^Ty = y^TAw + w^TA^Ty$.
-Since $y^TAw$ is a scalar, $y^TAw = (y^TAw)^T = w^TA^Ty$.
-So, $y^TAw + (Aw)^Ty = 2y^TAw$.
+Remember from the _Math Convention_ at first, a single vector standalone is a column vector.
 
+In the equation $2w^TX^Ty$ we have $w^T$ but we're taking the derivatives to $w$. According to property 1 we have $x^T.a$ - when multiplying with this _row vector $x^T$_ và lấy đạo hàm theo x thì ta được a.
+
+Vậy, $-2w^TX^Ty$ lấy đạo hàm theo $w$ ta được $-2X^Ty$.
+
+**Property 2:**
 $$
-\Leftrightarrow y^Ty - 2y^TAw + (Aw)^T(Aw)
-$$
-Our goal is to find the **minimum point** to **minimize** the $RSS(w)$ function, so we take the gradient with respect to $w$ and set it to zero:
-$$
-\nabla_w RSS(w) = 0
-$$
-$$
-\Leftrightarrow -2A^Ty + 2A^TAw = 0
-$$
-$$
-\Leftrightarrow A^TAw = A^Ty
-$$
-$$
-\Leftrightarrow w^* = (A^TA)^{-1}A^Ty
+\frac{\partial x^TAx}{\partial x} = (A + A^T)x
 $$
 
-When **differentiating** with respect to $w$, the derivative of $-2y^TAw$ is $-2A^Ty$.
-The derivative of $(Aw)^T(Aw) = w^TA^TAw$ is $2A^TAw$. (This is because $A^TA$ is a symmetric matrix).
+In the equation $x^Tw^TXw$, we have $w^T.(X^T.X).w$ and we're taking the derivatives to $x$.
+So, the result is: $((X^TX) + (X^TX)^T)w = 2X^TXw$.
 
-We assume that $A^TA$ is invertible.
+### 3.1 Final gradient formula.
 
-If the columns in $A$ are linearly dependent (i.e., $A$ does not have full column rank), then $A^TA$ will be non-invertible (singular).
+$$
+\Leftrightarrow -2X^Ty + 2X^TXw = 0
+$$
+$$
+\Leftrightarrow X^TXw = X^Ty
+$$
+$$
+\Leftrightarrow w^* = (X^TX)^{-1}X^Ty
+$$
+
+We assume that $X^TX$ is invertible.
+
+If the columns in $X$ are linearly dependent (i.e., $X$ does not have full column rank), then $X^TX$ will be non-invertible (singular).
 
 >[!danger]
 >High dimension space requires considerable computation.

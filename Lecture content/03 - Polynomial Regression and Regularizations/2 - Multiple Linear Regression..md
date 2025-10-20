@@ -39,3 +39,6 @@ $$
 
 **Lưu ý:** N is the number of samples, D is the number of input features.
 
+## 3. Normal Equation.
+
+[[Mathematical proof - Normal Equation.]]

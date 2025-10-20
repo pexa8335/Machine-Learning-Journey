@@ -4,25 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4537afd8ffac1fe0",
+        "id": "d5e2d1d753f2059b",
         "type": "tabs",
         "children": [
           {
-            "id": "75cbcbc3472bd8d7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lecture content/03 - Polynomial Regression and Regularizations/2 - Multiple Linear Regression..md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2 - Multiple Linear Regression."
-            }
-          },
-          {
-            "id": "60607d2c20609057",
+            "id": "2543aee66b77e6bc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -36,49 +22,21 @@
             }
           },
           {
-            "id": "c6a0f1ac470f193f",
+            "id": "6bb50d918c0f8d10",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lecture content/03 - Polynomial Regression and Regularizations/2 - Multiple Linear Regression..md",
+                "file": "Daily/2025-10-21.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2 - Multiple Linear Regression."
-            }
-          },
-          {
-            "id": "807909d5dd7286d4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Content/3.2 - Ordinary Least Square (OLS)..md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "3.2 - Ordinary Least Square (OLS)."
-            }
-          },
-          {
-            "id": "50009b1706018119",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Math concept/Mathematical proof - Normal Equation..md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Mathematical proof - Normal Equation."
+              "title": "2025-10-21"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -347,13 +305,28 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "50009b1706018119",
+  "active": "6bb50d918c0f8d10",
   "lastOpenFiles": [
-    "Lecture content/02 - Linear Regression & Gradient Descent/Gradient Descent..md",
+    "Daily/2025-10-20.md",
+    "Daily/2025-10-21.md",
+    "Daily/2025-10-19.md",
+    "Lecture content/03 - Polynomial Regression and Regularizations/3 - Linear regression - Geometric..md",
     "Math concept/Mathematical proof - Normal Equation..md",
-    "Lecture content/03 - Polynomial Regression and Regularizations/2 - Multiple Linear Regression..md",
+    "Custom/Image/Pasted image 20251018163331.png",
+    "Custom/Image/Pasted image 20251018163126.png",
     "Math concept/Euclidean norm (L2 norm)..md",
+    "Custom/Image/Pasted image 20251018161515.png",
+    "Custom/Image/Pasted image 20251018161404.png",
+    "Custom/Image/Pasted image 20251018161100.png",
+    "Custom/Image/Pasted image 20251018160900.png",
+    "Custom/Image/Pasted image 20251018160650.png",
     "Content/3.2 - Ordinary Least Square (OLS)..md",
+    "Lecture content/03 - Polynomial Regression and Regularizations/2 - Multiple Linear Regression..md",
+    "Daily/2025-10-18.md",
+    "Custom/Image/Pasted image 20251018102614.png",
+    "Custom/Image/Pasted image 20251018102250.png",
+    "Custom/Image/Pasted image 20251018101938.png",
+    "Lecture content/02 - Linear Regression & Gradient Descent/Gradient Descent..md",
     "Daily/2025-10-17.md",
     "Daily/2025-10-16.md",
     "Progress/Week 3..md",
@@ -371,11 +344,6 @@
     "Lecture content/02 - Linear Regression & Gradient Descent/Linear Regression..md",
     "Lecture content/04 -/Untitled.md",
     "Lecture content/04 -",
-    "Untitled 3.md",
-    "Paper..md",
-    "Translation/Linear Regression..md",
-    "Progress/Week 1..md",
-    "Untitled ktct mln..md",
     "Lecture content/02 - Linear Regression & Gradient Descent/~$02-Linear Regression and Gradient Descent.pptx",
     "Lecture Assignment/BT0_23520071.pdf",
     "Progress/Week 3",
@@ -383,17 +351,7 @@
     "Lecture Assignment/BT0_23520071.out",
     "Lecture Assignment/BT0_23520071.aux",
     "Lecture Assignment/BT0_23520071.synctex(busy)",
-    "Custom/Image/Pasted image 20251004212739.png",
-    "Custom/Image/Pasted image 20251004210214.png",
-    "Custom/Image/Pasted image 20251004203851.png",
-    "Custom/Image/Pasted image 20251004201834.png",
-    "Custom/Image/Pasted image 20251004201334.png",
-    "Custom/Image/Pasted image 20251004195117.png",
-    "Custom/Image/Pasted image 20251004195028.png",
     "Lecture content/03 - Polynomial Regression and Regularizations/~$3 - Polynomial Regression and Regularizations.pptx",
-    "Custom/Image/Pasted image 20250929155024.png",
-    "Lecture Assignment/iris.pdf",
-    "Custom/Image/Pasted image 20250927002303.png",
-    "Custom/Image/Pasted image 20250926235137.png"
+    "Lecture Assignment/iris.pdf"
   ]
 }
