@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily/2025-10-21.md",
+                "file": "Lecture content/03 - Polynomial Regression and Regularizations/3 - Linear regression - Geometric..md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-10-21"
+              "title": "3 - Linear regression - Geometric."
             }
           }
         ],
@@ -307,11 +307,22 @@
   },
   "active": "6bb50d918c0f8d10",
   "lastOpenFiles": [
-    "Daily/2025-10-20.md",
-    "Daily/2025-10-21.md",
-    "Daily/2025-10-19.md",
+    "Lecture content/03 - Polynomial Regression and Regularizations/4 - Polynomial Regression..md",
+    "Lecture content/03 - Polynomial Regression and Regularizations/5 - Regularization..md",
+    "Custom/Image/Pasted image 20251023143834.png",
+    "Custom/Image/Pasted image 20251023143326.png",
+    "Custom/Image/Pasted image 20251023143257.png",
+    "Custom/Image/Pasted image 20251023143218.png",
+    "Lecture content/03 - Polynomial Regression and Regularizations/2 - Multiple Linear Regression..md",
+    "Lecture content/02 - Linear Regression & Gradient Descent/Gradient Descent..md",
+    "Daily/2025-10-23.md",
+    "Lecture content/03 - Polynomial Regression and Regularizations/~$3 - Polynomial Regression and Regularizations.pptx",
+    "Lecture content/03 - Polynomial Regression and Regularizations/Polynominal_Regression.ipynb",
     "Lecture content/03 - Polynomial Regression and Regularizations/3 - Linear regression - Geometric..md",
     "Math concept/Mathematical proof - Normal Equation..md",
+    "Daily/2025-10-21.md",
+    "Daily/2025-10-20.md",
+    "Daily/2025-10-19.md",
     "Custom/Image/Pasted image 20251018163331.png",
     "Custom/Image/Pasted image 20251018163126.png",
     "Math concept/Euclidean norm (L2 norm)..md",
@@ -319,14 +330,8 @@
     "Custom/Image/Pasted image 20251018161404.png",
     "Custom/Image/Pasted image 20251018161100.png",
     "Custom/Image/Pasted image 20251018160900.png",
-    "Custom/Image/Pasted image 20251018160650.png",
     "Content/3.2 - Ordinary Least Square (OLS)..md",
-    "Lecture content/03 - Polynomial Regression and Regularizations/2 - Multiple Linear Regression..md",
     "Daily/2025-10-18.md",
-    "Custom/Image/Pasted image 20251018102614.png",
-    "Custom/Image/Pasted image 20251018102250.png",
-    "Custom/Image/Pasted image 20251018101938.png",
-    "Lecture content/02 - Linear Regression & Gradient Descent/Gradient Descent..md",
     "Daily/2025-10-17.md",
     "Daily/2025-10-16.md",
     "Progress/Week 3..md",
@@ -340,9 +345,6 @@
     "Daily/2025-09-30.md",
     "Daily/2025-09-29.md",
     "Lecture content/03 - Polynomial Regression and Regularizations/1 - Basic Linear Regression..md",
-    "Math concept/Sigma notation property..md",
-    "Lecture content/02 - Linear Regression & Gradient Descent/Linear Regression..md",
-    "Lecture content/04 -/Untitled.md",
     "Lecture content/04 -",
     "Lecture content/02 - Linear Regression & Gradient Descent/~$02-Linear Regression and Gradient Descent.pptx",
     "Lecture Assignment/BT0_23520071.pdf",
@@ -350,8 +352,6 @@
     "Lecture Assignment/BT0_23520071.synctex.gz",
     "Lecture Assignment/BT0_23520071.out",
     "Lecture Assignment/BT0_23520071.aux",
-    "Lecture Assignment/BT0_23520071.synctex(busy)",
-    "Lecture content/03 - Polynomial Regression and Regularizations/~$3 - Polynomial Regression and Regularizations.pptx",
-    "Lecture Assignment/iris.pdf"
+    "Lecture Assignment/BT0_23520071.synctex(busy)"
   ]
 }
